@@ -19,11 +19,13 @@ The base model is a ***GoogLeNet*** model that is not pretrained. It is customiz
 6. Navigate to `/l5kit-1.5.0/examples/agent_motion_precition` and create a directory called *output* to store the results of the model.
 6. Change parameters in the config file as fit for your system specifications. 
 7. Change the PATH in the prediction python/jupyter notebook scripts, 
+
 ```python
 os.environ["L5KIT_DATA_FOLDER"] = "/home/akhil/lyft_predict/l5kit-1.5.0"
 ...
 cfg = load_config_data("./agent_motion_config.yaml")
 ```
+
 ## System Specifications
 
 - 16 GB RAM 
@@ -34,6 +36,18 @@ cfg = load_config_data("./agent_motion_config.yaml")
 ***NOTE:***
 
 These are the specifications of the system this model was trained on and is **not the minimum specification** 
+
+## Requirements
+
+- python 3.9
+- L5kit-1.5.0
+- torch
+- torchvision
+- torchaudio
+- openCV
+- protobuf 3.20
+- jupyter
+- CUDA (optional- only for GPU)
 
 
 ## Directory Structure
