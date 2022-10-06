@@ -82,5 +82,12 @@ Motion_Prediction(any_name)
 
 ```
 
+### TODO
+
+- [ ] Update the model section with diagram
+- [ ] Train new model to try and reduce errors
+
+---
+
 
 
